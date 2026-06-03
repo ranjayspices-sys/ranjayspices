@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products - Ranjay Spices</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    nav {
+      background: #222;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .card {
+      width: 250px;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .price {
+      color: green;
+      font-size: 18px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="products.html">Products</a>
+  <a href="why-us.html">Why Us</a>
+</nav>
+
+<h1 style="text-align:center;">Our Products</h1>
+
+<div class="container">
+
+  <!-- PRODUCT 1 -->
+  <div class="card">
+    <img src="images/turmeric.jpg" alt="Turmeric">
+    <div class="card-content">
+      <h3>Turmeric Powder</h3>
+      <div class="price">₹120 / 100g</div>
+      <a class="btn"
+         href="https://wa.me/91XXXXXXXXXX?text=I want to order Turmeric Powder">
+         Order on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="card">
+    <img src="images/chilli.jpg" alt="Chilli Powder">
+    <div class="card-content">
+      <h3>Red Chilli Powder</h3>
+      <div class="price">₹150 / 100g</div>
+      <a class="btn"
+         href="https://wa.me/91XXXXXXXXXX?text=I want to order Red Chilli Powder">
+         Order on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="card">
+    <img src="images/coriander.jpg" alt="Coriander">
+    <div class="card-content">
+      <h3>Coriander Powder</h3>
+      <div class="price">₹100 / 100g</div>
+      <a class="btn"
+         href="https://wa.me/91XXXXXXXXXX?text=I want to order Coriander Powder">
+         Order on WhatsApp
+      </a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
