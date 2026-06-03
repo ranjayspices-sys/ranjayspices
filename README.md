@@ -8,6 +8,9 @@ description : 100 % original
 
 <meta name="Ranjay Spices" content="We provide pure and authentic spices. Picked from, dried, roasted and grind at home with love and taste of home. No added preservatives, chemicals and colours.">
 
+<title>Ranjay Spices | Pure & Authentic Indian Spices</title>
+<meta name="description" content="Ranjay Spices offers pure, authentic Indian spices sourced and processed with quality assurance." />
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
