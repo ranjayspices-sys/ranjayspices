@@ -54,5 +54,16 @@ function sendWhatsAppConfirmation() {
   let msg = "Order Confirmed from Ranjay Spices:%0A";
   cart.forEach(i => msg += i.name + "%0A");
 
-  window.open("https://wa.me/91XXXXXXXXXX?text=" + msg, "_blank");
+  window.open("https://wa.me/919102239127?text=" + msg, "_blank");
+}
+
+function sendOrderToSheet(paymentId) {
+  fetch("YOUR_GOOGLE_SCRIPT_URL", {
+    method: "POST",
+    body: JSON.stringify({
+      items: JSON.stringify(cart),
+      total: renderCart(),
+      paymentId: paymentId
+    })
+  });
 }
