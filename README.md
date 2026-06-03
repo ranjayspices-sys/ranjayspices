@@ -4,6 +4,11 @@ title : Ranjay Spices
 description : 100 % original 
 <!DOCTYPE html>
 <html lang="en">
+    <title>Spices</title>
+
+<meta name="Ranjay Spices" content="We provide pure and authentic spices. Picked from, dried, roasted and grind at home with love and taste of home. No added preservatives, chemicals and colours.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" 
