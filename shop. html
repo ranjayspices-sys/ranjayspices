@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop | Ranjay Spices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Shop Spices</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart 🛒</a>
+  </nav>
+</header>
+
+<section class="grid">
+
+  <div class="card">
+    <h3>Red Chilli Powder</h3>
+    <p>₹120 / 100g</p>
+    <button onclick="addToCart('Red Chilli Powder',120)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Turmeric Powder</h3>
+    <p>₹100 / 100g</p>
+    <button onclick="addToCart('Turmeric Powder',100)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Coriander Powder</h3>
+    <p>₹90 / 100g</p>
+    <button onclick="addToCart('Coriander Powder',90)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Garam Masala</h3>
+    <p>₹150 / 100g</p>
+    <button onclick="addToCart('Garam Masala',150)">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
